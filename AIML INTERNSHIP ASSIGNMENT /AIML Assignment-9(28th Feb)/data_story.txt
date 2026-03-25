@@ -1,0 +1,39 @@
+
+TITLE: Employee Workforce Insights – Salary, Location & Age Trends
+----------------------------------------------------------------------
+
+This analysis explores patterns across 17 employees spanning three
+departments (Sales, Marketing, Engineering) and four major U.S. cities.
+
+🔹 SALARY TRENDS (Bar Chart)
+   • Marketing leads with the highest average salary of $64,400.
+   • Sales has the lowest average salary at $55,143.
+   • The gap of $9,257 between the top and bottom
+     departments suggests significant pay variation, possibly driven by
+     market demand and specialization requirements.
+
+🔹 GEOGRAPHIC DISTRIBUTION (Pie Chart)
+   • New York is the dominant hiring hub, accounting for 29.4%
+     of total employees.
+   • Los Angeles, Chicago, Houston each have smaller but notable shares,
+     showing the company's geographic spread across multiple metro areas.
+   • The concentration in New York may reflect proximity to offices
+     or a larger talent pool.
+
+🔹 AGE DISTRIBUTION (Histogram)
+   • Employee ages range from 27 to 45 years.
+   • The average age is 34.6 years (median: 34.0),
+     indicating a relatively young and mid-career workforce.
+   • The distribution is roughly centered around the early-to-mid 30s,
+     with most employees concentrated in the 28–38 age bracket.
+   • Fewer employees fall in the 40+ range, suggesting either recent
+     hiring drives targeting younger talent or higher attrition among
+     senior employees.
+
+🔹 KEY TAKEAWAYS
+   1. The company invests more in Marketing roles, aligning with
+      industry compensation norms.
+   2. New York serves as the primary talent center — future diversity
+      goals may require expanding hiring in other cities.
+   3. The workforce is youthful, which presents both growth potential
+      and a need for mentorship and retention strategies.

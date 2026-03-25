@@ -1,0 +1,21 @@
+Name,Age,City,Salary,Department,Join_Date,Email
+John Smith,28,New York,50000,Sales,2023-01-15,john.smith@email.com
+jane doe,34,  los angeles  ,62000,marketing,15/02/2023,jane.doe@email.com
+ROBERT BROWN,45,chicago,75000,ENGINEERING,2023-03-20,robert.b@email.com
+Emily Davis,,New York,48000,Sales,2023-04-10,emily.d@email.com
+John Smith,28,New York,50000,Sales,2023-01-15,john.smith@email.com
+michael wilson,31,  HOUSTON  ,,engineering,05/05/2023,m.wilson@email.com
+Sarah Johnson,29,new york,55000,Marketing,2023-06-01,sarah.j@email.com
+  DAVID LEE  ,38,Los Angeles,68000,sales,2023-07-15,david.lee@email.com
+Lisa Anderson,, chicago ,52000,Engineering,08/08/2023,lisa.a@email.com
+james taylor,42,Houston,71000,MARKETING,2023-09-10,james.t@email.com
+Emily Davis,,New York,48000,Sales,2023-04-10,emily.d@email.com
+NANCY WHITE,33,  new york,59000,sales,2023-10-20,nancy.w@email.com
+kevin harris,27,Los Angeles,,Engineering,11/11/2023,kevin.h@email.com
+Amanda Clark,36,Chicago,64000,,2023-12-05,amanda.c@email.com
+  thomas martinez  ,44,houston,77000,Marketing,2024-01-15,thomas.m@email.com
+jennifer garcia,,  LOS ANGELES  ,51000,SALES,,jennifer.g@email.com
+ROBERT BROWN,45,chicago,75000,ENGINEERING,2023-03-20,robert.b@email.com
+chris robinson,30,New York,53000,engineering,2024-03-10,chris.r@email.com
+Stephanie Hall,35,Chicago,,Marketing,04/04/2024,steph.h@email.com
+daniel young,, HOUSTON ,46000,Sales,2024-05-20,daniel.y@email.com
