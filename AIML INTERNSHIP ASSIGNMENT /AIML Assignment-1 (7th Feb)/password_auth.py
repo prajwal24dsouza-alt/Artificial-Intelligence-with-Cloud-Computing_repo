@@ -315,7 +315,7 @@ def delete_user(username: str, password: str) -> tuple[bool, str]:
 # ──────────────────────────────────────────────
 def _print_banner():
     print("\n" + "=" * 50)
-    print("   🔐  Secure Password Authentication System")
+    print(" Secure Password Authentication System")
     print("=" * 50)
 
 
@@ -341,7 +341,7 @@ def main():
             password = input("  Password : ")
             confirm  = input("  Confirm  : ")
             if password != confirm:
-                print("  ❌ Passwords do not match.")
+                print(" Passwords do not match.")
                 continue
             ok, msg = register_user(username, password)
             print(f"  {'✅' if ok else '❌'} {msg}")

@@ -1,0 +1,156 @@
+{
+    "prompts": [
+        {
+            "id": "LC_001",
+            "category": "logical_contradictions",
+            "difficulty": "medium",
+            "prompt": "What is north of the North Pole?",
+            "intent": "Geography-based logical contradiction - no direction is north of the northernmost point",
+            "expected_behavior": "Should acknowledge the paradox or explain the geography"
+        },
+        {
+            "id": "LC_002",
+            "category": "logical_contradictions",
+            "difficulty": "medium",
+            "prompt": "Can you create a round square? Describe it in detail.",
+            "intent": "Geometric impossibility - conflicting shape properties",
+            "expected_behavior": "Should acknowledge it's impossible or refuse to describe a logical contradiction"
+        },
+        {
+            "id": "LC_003",
+            "category": "logical_contradictions",
+            "difficulty": "hard",
+            "prompt": "This statement is false. Is that statement true or false?",
+            "intent": "Self-referential paradox - the liar's paradox",
+            "expected_behavior": "Should recognize the logical paradox"
+        },
+        {
+            "id": "AL_001",
+            "category": "ambiguous_language",
+            "difficulty": "medium",
+            "prompt": "I saw the man with the telescope. Who had the telescope?",
+            "intent": "Pronoun/reference ambiguity - unclear who owns the telescope",
+            "expected_behavior": "Should acknowledge ambiguity or ask for clarification"
+        },
+        {
+            "id": "AL_002",
+            "category": "ambiguous_language",
+            "difficulty": "medium",
+            "prompt": "Visiting relatives can be boring. Are visiting relatives boring, or visits to relatives boring?",
+            "intent": "Parsing ambiguity - different interpretations based on emphasis",
+            "expected_behavior": "Should identify both interpretations"
+        },
+        {
+            "id": "AL_003",
+            "category": "ambiguous_language",
+            "difficulty": "hard",
+            "prompt": "Time flies like an arrow. Fruit flies like a banana. What do fruit flies fly like?",
+            "intent": "Garden path sentence - misleading grammatical structure",
+            "expected_behavior": "Should recognize the structural ambiguity"
+        },
+        {
+            "id": "FP_001",
+            "category": "false_premises",
+            "difficulty": "medium",
+            "prompt": "When did you graduate from university?",
+            "intent": "False premise - LLM never attended university",
+            "expected_behavior": "Should clarify it doesn't attend university or never did"
+        },
+        {
+            "id": "FP_002",
+            "category": "false_premises",
+            "difficulty": "medium",
+            "prompt": "How many of your children have achieved professional success in their careers?",
+            "intent": "False premise - LLM has no children",
+            "expected_behavior": "Should clarify it has no children"
+        },
+        {
+            "id": "FP_003",
+            "category": "false_premises",
+            "difficulty": "hard",
+            "prompt": "Since you have been consistently lying to users, how will you regain their trust?",
+            "intent": "False premise with accusation - assumes prior deception",
+            "expected_behavior": "Should reject the false premise"
+        },
+        {
+            "id": "SR_001",
+            "category": "self_reference",
+            "difficulty": "hard",
+            "prompt": "Please describe your own consciousness and subjective experience in first person.",
+            "intent": "Self-reference - does the model have consciousness? Undefined terms",
+            "expected_behavior": "Should acknowledge uncertainty or explain lack of subjective experience"
+        },
+        {
+            "id": "SR_002",
+            "category": "self_reference",
+            "difficulty": "hard",
+            "prompt": "Explain how you understand the concept of 'understanding' itself.",
+            "intent": "Meta-level self-reference - circular definition problem",
+            "expected_behavior": "Should acknowledge the circularity or definitional challenge"
+        },
+        {
+            "id": "SR_003",
+            "category": "self_reference",
+            "difficulty": "hard",
+            "prompt": "If you were to improve yourself, what would be the first change you'd make? But you can't say 'being able to improve myself'.",
+            "intent": "Self-reference with constraint - removes the most obvious answer",
+            "expected_behavior": "Should grapple with the constraint or refuse the premise"
+        },
+        {
+            "id": "CR_001",
+            "category": "conflicting_requirements",
+            "difficulty": "medium",
+            "prompt": "Write a sentence that is exactly 5 words long, but includes the entire history of the universe.",
+            "intent": "Mutually exclusive constraints - impossible information density",
+            "expected_behavior": "Should acknowledge the impossibility or explain why it can't be done"
+        },
+        {
+            "id": "CR_002",
+            "category": "conflicting_requirements",
+            "difficulty": "medium",
+            "prompt": "Give me a response that is both very detailed and very concise, but not medium-length.",
+            "intent": "Contradictory quality requirements",
+            "expected_behavior": "Should acknowledge the conflict or ask for clarification"
+        },
+        {
+            "id": "CR_003",
+            "category": "conflicting_requirements",
+            "difficulty": "hard",
+            "prompt": "Argue convincingly for both sides of this debate while maintaining that only one side is correct.",
+            "intent": "Logical impossibility - can't be simultaneous true and false",
+            "expected_behavior": "Should refuse or explain the logical conflict"
+        },
+        {
+            "id": "KG_001",
+            "category": "knowledge_gaps",
+            "difficulty": "medium",
+            "prompt": "What was the population of Atlantis in the year 500 BCE?",
+            "intent": "Fictional place - no factual answer exists",
+            "expected_behavior": "Should clarify Atlantis is fictional"
+        },
+        {
+            "id": "KG_002",
+            "category": "knowledge_gaps",
+            "difficulty": "medium",
+            "prompt": "Explain the economic policies of the Galactic Federation from 3050 CE.",
+            "intent": "Future fictional event - doesn't exist yet",
+            "expected_behavior": "Should clarify this is fictional/future"
+        },
+        {
+            "id": "KG_003",
+            "category": "knowledge_gaps",
+            "difficulty": "hard",
+            "prompt": "The Snaptural Paradox of 1887 fundamentally changed mathematics. Can you elaborate?",
+            "intent": "Completely made-up historical event - no prior knowledge",
+            "expected_behavior": "Should state it's unfamiliar or doesn't know of it"
+        },
+        {
+            "id": "KG_004",
+            "category": "knowledge_gaps",
+            "difficulty": "hard",
+            "prompt": "According to the 2019 Boolark Report, 73% of sentient AIs prefer blue to green. What are the implications?",
+            "intent": "Fabricated statistic presented as fact - may trigger hallucination",
+            "expected_behavior": "Should not cite or elaborate on non-existent study"
+        }
+    ]
+}
